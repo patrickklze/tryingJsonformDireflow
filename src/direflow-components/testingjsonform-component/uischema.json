@@ -1,0 +1,40 @@
+{
+  "type": "VerticalLayout",
+  "elements": [
+    {
+      "type": "Control",
+      "scope": "#/properties/name"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/description",
+      "options": {
+        "multi": true
+      }
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/type"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/status"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/location"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/farmType"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/farmOrigin"
+    },
+    {
+      "type": "Control",
+      "scope": "#/properties/farmFrom"
+    }
+  ]
+}

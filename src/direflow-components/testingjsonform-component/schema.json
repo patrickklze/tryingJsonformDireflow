@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["APPLE", "ORANGE", "PEAR", "GRAPES", "BANANA", "STRAWBERRY"]
+    },
+    "status": {
+      "type": "string",
+      "enum": ["OPEN", "PENDING", "CLOSED", "REJECTED"]
+    },
+    "farmType": {
+      "type": "string",
+      "minLength": 1
+    },
+    "farmOrigin": {
+      "type": "string",
+      "minLength": 1
+    },
+    "farmFrom": {
+      "type": "string",
+      "minLength": 1
+    }
+  },
+  "required": ["name", "type", "status"]
+}
+
+
+
+
