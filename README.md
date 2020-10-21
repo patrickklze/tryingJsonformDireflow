@@ -1,10 +1,8 @@
-This component was bootstrapped with [Direflow](https://direflow.io).
+# Steps to run
 
-# Testingjsonform Component
-> This project is created using Direflow
 
-```html
-<testingjsonform-component></testingjsonform-component>
-```
+-> npm i
 
-Use this README to describe your Direflow Component
+-> npm start
+
+-> Go to http://localhost:3000 
